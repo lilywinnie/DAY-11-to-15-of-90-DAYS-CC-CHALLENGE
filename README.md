@@ -139,4 +139,72 @@ int main() {
 
 
 
-# 3. 
+# 3. Giant Wheel
+
+
+Alice is visiting the amusement park!
+
+Alice's height is X centimeters.
+The park stipulates that the minimum height necessary to get on the giant wheel is 60 centimeters.
+
+Will Alice be able to ride on the giant wheel?
+
+Input Format
+
+The only line of input contains a single integer X — Alice's height.
+
+Output Format
+
+Output the answer on a single line: "Yes" if Alice can ride the giant wheel, and "No" otherwise (without quotes).
+
+Each letter of the output may be printed in either uppercase or lowercase, i.e, the strings NO, no, No, and nO will all be treated as equivalent.
+
+Constraints
+
+1≤X≤100
+
+Sample 1:
+
+Input
+
+59
+
+Output
+
+No
+
+Explanation:
+
+Alice's height is 59 centimeters, which is less than the minimum height of 60.
+So, she can't ride the giant wheel.
+
+Sample 2:
+
+Input
+
+60
+
+Output
+
+Yes
+
+Explanation:
+
+Alice's height is 60 centimeters, which equals the minimum height of 60.
+So, she can ride the giant wheel.
+
+Sample 3:
+
+Input
+
+61
+
+Output
+
+Yes
+
+Explanation:
+
+Alice's height is 60 centimeters, which is greater than the minimum height of 60.
+So, she can ride the giant wheel.
+
