@@ -208,3 +208,70 @@ Explanation:
 Alice's height is 60 centimeters, which is greater than the minimum height of 60.
 So, she can ride the giant wheel.
 
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int X; 
+    cin >> X;
+     
+
+    if (X < 60) 
+        cout << "No" << endl;
+
+    else 
+        cout << "Yes" << endl;
+    
+     
+    return 0;}
+
+
+# 4.Christmas Trees
+
+
+Chef opened a tree-selling business this Christmas.
+
+He bought N trees for A rupees, and then sold M trees for B rupees.
+
+What was his profit this Christmas? If Chef instead made a loss of X rupees, print −X.
+
+Input Format
+
+The first and only line of input contains 
+4 integers - N,A,M and B.
+
+Output Format
+
+Output Chef's profit this christmas.
+
+Constraints
+
+1≤M≤N≤100
+
+100≤A≤B≤1000
+
+Sample 1:
+
+Input
+
+5 100 2 1000
+
+Output
+
+1500
+
+Explanation:
+
+Chef bought 5 trees for 100 rupees, and then sold 2 trees for 1000 rupees, thus his profit was 2000−500=1500 rupees.
+
+Sample 2:
+
+Input
+
+5 100 2 100
+
+Output
+
+-300
