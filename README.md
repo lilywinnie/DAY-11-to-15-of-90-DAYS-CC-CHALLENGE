@@ -365,3 +365,25 @@ Test case 4:
 
 You obtain 4 credits for each of the RTP courses, accounting for 4⋅9=36 credits. You also obtain 2 credits for each audit course, accounting for 2⋅2=4 credits. Finally, you get 0 credits for each of the non-RTP courses, accounting for 0⋅4=0 credits. This accounts for a total of 36+4+0=40 credits.
 
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T; 
+    
+    while (T--) {
+        
+        int X, Y, Z;
+        cin >> X >> Y >> Z;
+        
+        cout << (X * 4) + (Y * 2) << endl;
+    }
+    
+    return 0;}
+
+
+
